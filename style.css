@@ -1,0 +1,21 @@
+h3 {
+    font-size: 80px;
+    background-color: aqua;
+    width: 40%;
+    border-radius: 10px;
+}
+
+canvas {
+    animation-name: siyona;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes siyona {
+    from {
+        box-shadow: 1px 1px 38px cadetblue;
+    }
+    to {
+        box-shadow: 1px 1px 38px rgb(236, 207, 75);
+    }
+}
